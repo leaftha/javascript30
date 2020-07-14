@@ -4,7 +4,7 @@ const progress = player.querySelector(".progress");
 const progressBar = player.querySelector(".progress_filled");
 
 const toggle = player.querySelector(".toggle");
-const skipButtons = player.querySelectorAll("[data-skip");
+const skipButtons = player.querySelectorAll("[data-skip]");
 const ranges = player.querySelectorAll(".player_slider");
 
 function togglePlay() {
@@ -31,7 +31,8 @@ function handleRangeUpdate() {
 
 function handleProgress() {
   const percent = (video.currentTime / video.duration) * 100;
-  progressBar.style.flexBasis = `${percent}%`;
+  const why = (progressBar.style.flexBasis = `${percent}%`);
+  console.log(why);
 }
 
 function scrub(event) {
