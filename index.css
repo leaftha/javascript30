@@ -1,3 +1,41 @@
-body {
-  display: flex;
+/* html {
+  background: #dd5e89;
+  font-family: "hlvetica neue";
+  font-size: 30px;
 }
+
+body {
+  display: inline-block;
+}
+
+.main-list {
+  display: flex;
+  position: relative;
+  margin-top: 300px;
+  justify-content: space-around;
+  text-align: center;
+  align-items: center;
+  transition: all ease-in;
+}
+
+.move-left {
+  margin-right: 100px;
+}
+
+.move-right {
+  margin-right: 100px;
+}
+
+.list {
+  /* position: absolute;
+  width: 170px;
+  height: 235px;
+  margin: 10px;
+  background: white;
+  border: 5px solid black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+} */
